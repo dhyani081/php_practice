@@ -9,6 +9,8 @@
     <div class="container">
         This is my first php website
         <?php
+        //Constants
+        define ('PI',3.14);
          echo "Hello World with php";
         ?> 
 
@@ -99,6 +101,47 @@ echo --$variable1;
 echo "<br>";
 echo $variable1;
 echo "<br>";
+
+
+//Logical Operators
+// and (&&)
+// or (||)
+// xor
+// !
+
+// DataTypes
+// String
+// Integer
+// Float
+// Boolean
+// array
+// object
+
+
+$var = "This is a fox";
+echo var_dump($var);
+echo "<br>";
+
+$var = 34;
+echo var_dump($var);
+echo "<br>";
+
+$var = 34.2;
+echo var_dump($var);
+echo "<br>";
+
+$var = true;
+echo var_dump($var);
+echo "<br>";
+
+echo PI; //constant example defined on top of the php script
+
+
+
+
+
+
+
 
 
 
